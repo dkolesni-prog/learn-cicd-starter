@@ -25,5 +25,5 @@ jobs:
     name: Style
     runs-on: ubuntu-latest
     steps:
-      - name: Check styling
+      - name: Check stylingg
         run: test -z $(go fmt ./...)
